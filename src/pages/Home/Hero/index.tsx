@@ -1,25 +1,50 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 
-import HERO_WAVE from 'assets/home/hero/hero_wave.svg';
-import LOGO from 'assets/home/hero/logo.svg';
-import LOGO_MOBILE from 'assets/home/hero/logo_mobile.svg';
-
+import clsx from 'clsx';
 import styles from './styles.module.scss';
 
-const Hero: React.FC = () => (
-  <div className={styles.hero}>
-    <img className={styles.logo} src={LOGO} alt="" />
-    <img className={styles.logoMobile} src={LOGO_MOBILE} alt="" />
-    <img className={styles.wave} src={HERO_WAVE} alt="" />
+const AnimatedElement: React.FC = () => {
+  const [tick, setTick] = useState(0);
 
-    <div className={styles.header}>
-      <h4>HackIllinois presents</h4>
-      <h1>Open Source</h1>
-      <h1>Fellowship</h1>
-      <h3>September 30 - October 21, 2021</h3>
-      <a className={styles.applyButton} href="https://go.hackillinois.org/fellowship-application">Apply Now</a>
+  const wordAnimation = [
+    { character: 'S', color: '#FF5E04' },
+    { character: 't', color: '#1047AE' },
+    { character: 'a', color: '#FFC444' },
+    { character: 'r', color: '#929CF1' },
+    { character: 't', color: '#FF9863' },
+  ];
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setTick((t) => (t + 1) % (wordAnimation.length + 2));
+    }, 500);
+
+    return () => clearInterval(interval);
+  }, []);
+
+  return (
+    <>
+      {wordAnimation.map(({ character, color }, i) => (
+        <span style={{ color }} className={clsx(styles.animatingCharacter, tick <= i && styles.plain)}>{character}</span>
+      ))}
+    </>
+  );
+};
+
+const Hero: React.FC = () => {
+  return (
+    <div className={styles.hero}>
+      <div className={styles.header}>
+        <h4>HackIllinois presents</h4>
+        <h1>
+          Hack
+          <AnimatedElement />
+        </h1>
+        <h3>September 17, 2022</h3>
+        <a className={styles.applyButton} href="/">Apply Now</a>
+      </div>
     </div>
-  </div>
-);
+  );
+};
 
 export default Hero;
