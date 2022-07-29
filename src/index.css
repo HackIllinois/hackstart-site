@@ -25,3 +25,35 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
 }
+
+/* Typography */
+
+h2 {
+  font-size: 48px;
+  padding: 0 40px;
+  border-radius: 80px;
+  border: 2px solid currentColor;
+  border-bottom: 8px solid currentColor;
+  display: inline-block;
+  background-color: white;
+}
+
+h3 {
+  text-transform: uppercase;
+  color: #FF5E04;
+  font-weight: 600;
+  font-size: 32px;
+}
+
+p {
+  font-size: 18px;
+}
+
+/* Utility */
+.mb-small {
+  margin-bottom: 20px;
+}
+
+.mb-large {
+  margin-bottom: 64px;
+}
