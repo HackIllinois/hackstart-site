@@ -5,10 +5,10 @@ import About from './About';
 import styles from './styles.module.scss';
 
 const Home: React.FC = () => (
-  <div className={styles.home}>
+  <main className={styles.home}>
     <Hero />
     <About />
-  </div>
+  </main>
 );
 
 export default Home;

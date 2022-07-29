@@ -33,8 +33,8 @@ const AnimatedElement: React.FC = () => {
 
 const Hero: React.FC = () => {
   return (
-    <div className={styles.hero}>
-      <div className={styles.header}>
+    <section className={styles.hero}>
+      <header className={styles.header}>
         <h4>HackIllinois presents</h4>
         <h1>
           Hack
@@ -42,8 +42,8 @@ const Hero: React.FC = () => {
         </h1>
         <h3>September 17, 2022</h3>
         <a className={styles.applyButton} href="/">Apply Now</a>
-      </div>
-    </div>
+      </header>
+    </section>
   );
 };
 
