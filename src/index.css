@@ -38,6 +38,27 @@ h2 {
   background-color: white;
 }
 
+
+@media only screen and (max-width: 1100px) {
+  h2 {
+    font-size: 32px;
+    padding: 0 32px;
+    border-radius: 64px;
+    border: 2px solid currentColor;
+    border-bottom: 8px solid currentColor;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  h2 {
+    font-size: 20px;
+    padding: 0 24px;
+    border-radius: 48px;
+    border: 2px solid currentColor;
+    border-bottom: 8px solid currentColor;
+  }
+}
+
 h3 {
   text-transform: uppercase;
   color: #FF5E04;
@@ -45,8 +66,32 @@ h3 {
   font-size: 32px;
 }
 
+@media only screen and (max-width: 1100px) {
+  h3 {
+    font-size: 24px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  h3 {
+    font-size: 18px;
+  }
+}
+
 p {
   font-size: 18px;
+}
+
+@media only screen and (max-width: 1100px) {
+  p {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  p {
+    font-size: 12px;
+  }
 }
 
 /* Utility */
@@ -54,6 +99,18 @@ p {
   margin-bottom: 20px;
 }
 
+@media only screen and (max-width: 1100px) {
+  .mb-small {
+    margin-bottom: 18px;
+  }
+}
+
 .mb-large {
   margin-bottom: 64px;
+}
+
+@media only screen and (max-width: 1100px) {
+  .mb-large {
+    margin-bottom: 48px;
+  }
 }
