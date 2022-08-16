@@ -56,7 +56,7 @@ const Hero: React.FC = () => {
           <AnimatedElement />
         </h1>
         <h3 className="mb-small">September 17, 2022</h3>
-        <div className={styles.applyButton}>Apply Now</div>
+        <a className={styles.applyButton} href="/">Apply Now</a>
       </header>
 
       <div className={styles.rightColumn}>
