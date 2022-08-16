@@ -3,6 +3,7 @@ import React from 'react';
 import Hero from './Hero';
 import About from './About';
 import FAQ from './FAQ';
+import Footer from './Footer';
 import styles from './styles.module.scss';
 
 const Home: React.FC = () => (
@@ -10,6 +11,7 @@ const Home: React.FC = () => (
     <Hero />
     <About />
     <FAQ />
+    <Footer />
   </main>
 );
 
