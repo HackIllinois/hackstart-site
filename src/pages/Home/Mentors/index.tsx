@@ -1,37 +1,30 @@
 import React from 'react';
 
+// import SOFT_STAR from 'assets/home/shapes/soft_star.svg';
+// import ORANGE_ELLIPSES from 'assets/home/shapes/orange_ellipses.svg';
+// import BLUE_DIAMOND from 'assets/home/shapes/blue_diamond.svg';
+// import PURPLE_X from 'assets/home/shapes/purple_x.svg';
+// import PARTY from 'assets/home/shapes/party.svg';
+// import WHITE_ELLIPSES from 'assets/home/shapes/white_ellipses.svg';
+
+import clsx from 'clsx';
 import styles from './styles.module.scss';
 import mentors from './mentors.json';
 
-// sort mentors alphabetically by name
-mentors.sort(({ name: n1 }, { name: n2 }) => n1.localeCompare(n2));
-
-const Mentors = (): JSX.Element => (
-  <div className={styles.mentors}>
-    <h3 className={styles.title}>Mentors</h3>
-
-    {mentors.map(({ name, projects, headshot, bio, github = {} }) => (
-      <div className={styles.mentor}>
-        <a
-          className={styles.headshot}
-          href={`https://github.com/${github}`}
-          style={{ backgroundImage: `url("/mentor_photos/${headshot}")` }}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <span className={styles.screenReaderOnly}>{`${name}'s GitHub profile`}</span>
-        </a>
-
-        <div>
-          <h4 className={styles.name}>{name}</h4>
-          {projects.map(({ name: projectName, link }) => (
-            <a className={styles.project} href={link} target="_blank" rel="noopener noreferrer">{projectName}</a>
-          ))}
-          <p className={styles.bio} dangerouslySetInnerHTML={{ __html: bio }} />
-        </div>
+const Mentors: React.FC = () => (
+  <section className={styles.mentors}>
+    <h2>Mentors</h2>
+    {mentors.map(({ name, github, bio, headshot }) => (
+      <div className={styles.mentorCard}>
+        <img src={`/mentor_photos/${headshot}`} />
+        <span className={styles.info}>
+          <div className={styles.name}>{name}</div>
+          <div className={styles.title}>{github}</div>
+          <p className={styles.bio}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam convallis hendrerit orci, eleifend tristique libero dapibus vitae. Sed urna felis, vestibulum eget eros id, laoreet dictum massa. Morbi rhoncus libero sit amet porta sollicitudin.</p>
+        </span>
       </div>
     ))}
-  </div>
+  </section>
 );
 
 export default Mentors;
