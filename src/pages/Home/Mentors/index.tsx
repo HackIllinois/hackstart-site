@@ -13,10 +13,10 @@ import styles from './styles.module.scss';
 import mentors from './mentors.json';
 
 const Mentors: React.FC = () => (
-  <section className={styles.mentors}>
+  <section className={styles.mentors} id="mentors">
     <h2>Mentors</h2>
     {mentors.map(({ name, github, bio, headshot }) => (
-      <div className={styles.mentorCard}>
+      <div key={github} className={styles.mentorCard}>
         <img src={`/mentor_photos/${headshot}`} />
         <span className={styles.info}>
           <div className={styles.name}>{name}</div>

@@ -10,7 +10,7 @@ import ORANGE_ELLIPSES from 'assets/home/shapes/orange_ellipses.svg';
 import WHITE_ELLIPSES from 'assets/home/shapes/white_ellipses.svg';
 
 const About: React.FC = () => (
-  <section className={styles.about}>
+  <section className={styles.about} id="about">
     <div className={styles.abstract}>
         <img className={clsx(styles.blueCloud, "shape")} src={BLUE_CLOUD} alt="" />
         <img className={clsx(styles.yellowFlower, "shape")} src={YELLOW_FLOWER} alt="" />

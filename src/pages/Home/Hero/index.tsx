@@ -32,7 +32,7 @@ const AnimatedElement: React.FC = () => {
   return (
     <>
       {wordAnimation.map(({ character, color }, i) => (
-        <span style={{ color }} className={clsx(styles.animatingCharacter, tick <= i && styles.plain)}>{character}</span>
+        <span key={i} style={{ color }} className={clsx(styles.animatingCharacter, tick <= i && styles.plain)}>{character}</span>
       ))}
     </>
   );

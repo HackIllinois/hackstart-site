@@ -9,7 +9,7 @@ import ORANGE_HALF_CIRCLE from 'assets/home/shapes/orange_half_circle.svg';
 import PURPLE_OVAL from 'assets/home/shapes/purple_oval.svg';
 
 const FAQ: React.FC = () => (
-  <section className={styles.faq}>
+  <section className={styles.faq} id="faq">
     <div className={styles.text}>
       <h2 className="mb-large">FAQ</h2>
       <h3 className="mb-small">What is the Open Source Fellowship?</h3>

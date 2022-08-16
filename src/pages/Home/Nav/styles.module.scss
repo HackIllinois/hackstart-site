@@ -1,0 +1,39 @@
+nav {
+  background-color: white;
+  border: 4px solid #2C2C2C;
+  display: flex;
+  align-items: stretch;
+
+  .logo {
+    margin-right: auto;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border-right: 4px solid #2C2C2C;
+
+    @media only screen and (max-width: 1100px) {
+      border-right: 0;
+    }
+  }
+
+  .link {
+    border-left: 4px solid #2C2C2C;
+    display: flex;
+    align-items: center;
+
+    a {
+      color: inherit;
+      text-decoration: none;
+      font-size: 16px;
+      font-weight: 700;
+    }
+  }
+
+  .logo, .link {
+    padding-right: 25px;
+    padding-left: 25px;
+  }
+
+  @media only screen and (max-width: 700px) {
+    display: none;
+  }
+}

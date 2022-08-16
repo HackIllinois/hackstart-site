@@ -42,7 +42,7 @@ const Footer: React.FC = () => (
     <img className={styles.ground} src={GROUND} />
     <footer>
       {socials.map(({ svg, link }) => (
-        <a className={styles.socialWrapper} href={link}>
+        <a key={link} className={styles.socialWrapper} href={link}>
           <img src={svg} className={styles.social} />
         </a>
       ))}
