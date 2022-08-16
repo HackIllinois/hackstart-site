@@ -114,3 +114,8 @@ p {
     margin-bottom: 48px;
   }
 }
+
+/* Basic Components */
+.shape {
+  position: absolute;
+}

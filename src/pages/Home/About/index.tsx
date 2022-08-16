@@ -1,9 +1,25 @@
 import React from 'react';
 import styles from './styles.module.scss';
+import clsx from 'clsx';
+
+import BLUE_CLOUD from 'assets/home/shapes/blue_cloud.svg';
+import YELLOW_FLOWER from 'assets/home/shapes/yellow_flower.svg';
+import LAME_STAR from 'assets/home/shapes/lame_star.svg';
+import ORANGE_FLOWER from 'assets/home/shapes/orange_flower.svg';
+import ORANGE_ELLIPSES from 'assets/home/shapes/orange_ellipses.svg';
+import WHITE_ELLIPSES from 'assets/home/shapes/white_ellipses.svg';
 
 const About: React.FC = () => (
   <section className={styles.about}>
-    <div className={styles.abstract}></div>
+    <div className={styles.abstract}>
+        <img className={clsx(styles.blueCloud, "shape")} src={BLUE_CLOUD} alt="" />
+        <img className={clsx(styles.yellowFlower, "shape")} src={YELLOW_FLOWER} alt="" />
+        <img className={clsx(styles.lameStar1, "shape")} src={LAME_STAR} alt="" />
+        <img className={clsx(styles.lameStar2, "shape")} src={LAME_STAR} alt="" />
+        <img className={clsx(styles.orangeFlower, "shape")} src={ORANGE_FLOWER} alt="" />
+        <img className={clsx(styles.orangeEllipses, "shape")} src={ORANGE_ELLIPSES} alt="" />
+        <img className={clsx(styles.whiteEllipses, "shape")} src={WHITE_ELLIPSES} alt="" />
+    </div>
     <div className={styles.text}>
       <h2 className="mb-large">About</h2>
       <h3 className="mb-small">Our Vision</h3>
