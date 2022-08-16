@@ -1,5 +1,12 @@
 import React from 'react';
 import styles from './styles.module.scss';
+import clsx from 'clsx';
+
+import BLUE_MINI_CLOUD from 'assets/home/shapes/blue_half_cloud.svg';
+import WHITE_ELLIPSES from 'assets/home/shapes/white_ellipses.svg';
+import SOFT_STAR from 'assets/home/shapes/soft_star.svg';
+import ORANGE_HALF_CIRCLE from 'assets/home/shapes/orange_half_circle.svg';
+import PURPLE_OVAL from 'assets/home/shapes/purple_oval.svg';
 
 const FAQ: React.FC = () => (
   <section className={styles.faq}>
@@ -16,7 +23,14 @@ const FAQ: React.FC = () => (
       <h3 className="mb-small">Who will students be paired with?</h3>
       <p className="mb-large">At previous HackIllinois events, we have had an incredible set of open source mentors from industry mentoring students. These mentors have been invited to help students continue to grow their open source skills through our mentorship program. You can check out our mentors on our website soon!</p>
     </div>
-    <div className={styles.abstract}></div>
+    <div className={styles.abstract}>
+      <img className={clsx(styles.blueMiniCloud, "shape")} src={BLUE_MINI_CLOUD} alt="" />
+      <img className={clsx(styles.whiteEllipses, "shape")} src={WHITE_ELLIPSES} alt="" />
+      <img className={clsx(styles.orangeHalfCircle, "shape")} src={ORANGE_HALF_CIRCLE} alt="" />
+      <img className={clsx(styles.softStar1, "shape")} src={SOFT_STAR} alt="" />
+      <img className={clsx(styles.softStar2, "shape")} src={SOFT_STAR} alt="" />
+      <img className={clsx(styles.purpleOval, "shape")} src={PURPLE_OVAL} alt="" />
+    </div>
   </section>
 );
 
