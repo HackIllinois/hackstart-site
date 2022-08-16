@@ -10,14 +10,41 @@ import LINKEDIN from 'assets/home/footer/linkedin.svg'
 import GITHUB from 'assets/home/footer/github.svg'
 import EMAIL from 'assets/home/footer/email.svg'
 
+const socials = [
+  {
+    svg: FACEBOOK,
+    link: "https://www.facebook.com/hackillinois/",
+  },
+  {
+    svg: INSTAGRAM,
+    link: "https://www.instagram.com/hackillinois/",
+  },
+  {
+    svg: TWITTER,
+    link: "https://twitter.com/HackIllinois",
+  },
+  {
+    svg: LINKEDIN,
+    link: "https://www.linkedin.com/company/hackillinois/",
+  },
+  {
+    svg: GITHUB,
+    link: "https://github.com/HackIllinois",
+  },
+  {
+    svg: EMAIL,
+    link: "mailto:contact@hackillinois.org",
+  },
+];
+
 const Footer: React.FC = () => (
   <>
     <img className={styles.ground} src={GROUND} />
     <footer>
-      {[FACEBOOK, INSTAGRAM, TWITTER, LINKEDIN, GITHUB, EMAIL].map(svg => (
-        <div className={styles.socialWrapper}>
+      {socials.map(({ svg, link }) => (
+        <a className={styles.socialWrapper} href={link}>
           <img src={svg} className={styles.social} />
-        </div>
+        </a>
       ))}
     </footer>
   </>
