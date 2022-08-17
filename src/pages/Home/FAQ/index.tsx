@@ -12,16 +12,16 @@ const FAQ: React.FC = () => (
   <section className={styles.faq} id="faq">
     <div className={styles.text}>
       <h2 className="mb-large">FAQ</h2>
-      <h3 className="mb-small">What is the Open Source Fellowship?</h3>
-      <p className="mb-large">Open Source Fellowship is a HackIllinois initiative whereby students work in small project groups led by Open Source professionals to contribute to a large-scale open source project.</p>
+      <h3 className="mb-small">What is the HackStart?</h3>
+      <p className="mb-large">HackStart is a one-day event in which students will work in project groups with mentors. As a participant, you’ll not only be able to learn about a new topic of your interest, but also gain valuable experience with a completed project. With our one-day timeline, you’ll be able to dive into your topic without being overwhelmed with a long term project, and gain insight into what a hackathon project may look like.</p>
       <h3 className="mb-small">How does it work?</h3>
-      <p className="mb-small">Each team will work independently on its project throughout the course of the Open Source Fellowship. Mentors will assign tasks, meet with group members, and hold development meetings where team members will be able to share and make progress on what they’re working on. In addition to this, all participants in Open Source Fellowship will be a part of a shared slack workspace, where groups will be able to share progress and gather feedback on specific features from a larger group.</p>
-      <h3 className="mb-small">When is the Open Source Fellowship?</h3>
-      <p className="mb-large">Open Source Fellowship will kick off on [sometime in Oct], and conclude on [sometime in ____].</p>
-      <h3 className="mb-small">Who can participate in the Open Source Fellowship?</h3>
-      <p className="mb-large">Open Source Month is open to any college student regardless of experience level! We are searching for candidates who are passionate about open source, working in teams, and contributing to and maintaining projects that’ll go on to be used by many.</p>
+      <p className="mb-large">Students will work in small groups with mentors to learn about and complete a project in a topic of their choice; the exact structure of each project will be determined by each mentor. Expect a beginner-friendly introduction into your topic and a guided project to apply both your newly-gained knowledge and experiment with how it may be used. Please note that attendees partake in one project for the duration of the event to maximize time with their project. See our application for the latest information on what projects will be taught.</p>
+      <h3 className="mb-small">When is HackStart?</h3>
+      <p className="mb-large">HackStart will be on Saturday, September 17th, 2022 from 10AM to 4PM in the Siebel Center for Computer Science. Attendees will be emailed specific details closer to the event.</p>
+      <h3 className="mb-small">Who can participate in HackStart?</h3>
+      <p className="mb-large">Any UIUC student, regardless of major, can participate!</p>
       <h3 className="mb-small">Who will students be paired with?</h3>
-      <p className="mb-large">At previous HackIllinois events, we have had an incredible set of open source mentors from industry mentoring students. These mentors have been invited to help students continue to grow their open source skills through our mentorship program. You can check out our mentors on our website soon!</p>
+      <p className="mb-large">Mentors will be experienced individuals in their relevant topic. Our staff will work with mentors to ensure proper preparation and expertise.</p>
     </div>
     <div className={styles.abstract}>
       <img className={clsx(styles.blueMiniCloud, "shape")} src={BLUE_MINI_CLOUD} alt="" />
