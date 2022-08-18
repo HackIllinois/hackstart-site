@@ -12,7 +12,7 @@ const FAQ: React.FC = () => (
   <section className={styles.faq} id="faq">
     <div className={styles.text}>
       <h2 className="mb-large">FAQ</h2>
-      <h3 className="mb-small">What is the HackStart?</h3>
+      <h3 className="mb-small">What is HackStart?</h3>
       <p className="mb-large">HackStart is a one-day event in which students will work in project groups with mentors. As a participant, you’ll not only be able to learn about a new topic of your interest, but also gain valuable experience with a completed project. With our one-day timeline, you’ll be able to dive into your topic without being overwhelmed with a long term project, and gain insight into what a hackathon project may look like.</p>
       <h3 className="mb-small">How does it work?</h3>
       <p className="mb-large">Students will work in small groups with mentors to learn about and complete a project in a topic of their choice; the exact structure of each project will be determined by each mentor. Expect a beginner-friendly introduction into your topic and a guided project to apply both your newly-gained knowledge and experiment with how it may be used. Please note that attendees partake in one project for the duration of the event to maximize time with their project. See our application for the latest information on what projects will be taught.</p>
