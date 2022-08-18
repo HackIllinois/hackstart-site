@@ -7,18 +7,18 @@ import LOGO from 'assets/home/shapes/hack_logo.svg';
 const Nav: React.FC = () => (
   <nav>
     <img src={LOGO} alt="HackIllinois Logo" className={styles.logo} />
-    <span className={styles.link}>
-      <a href="#">Home</a>
-    </span>
-    <span className={styles.link}>
-      <a href="#about">About</a>
-    </span>
-    <span className={styles.link}>
-      <a href="#faq">FAQ</a>
-    </span>
-    <span className={styles.link}>
-      <a href="#mentors">Mentors</a>
-    </span>
+    <a href="#" className={styles.link}>
+      <span>Home</span>
+    </a>
+    <a href="#about" className={styles.link}>
+      <span>About</span>
+    </a>
+    <a href="#faq" className={styles.link}>
+      <span>FAQ</span>
+    </a>
+    <a href="#mentors" className={styles.link}>
+      <span>Mentors</span>
+    </a>
   </nav>
 );
 
