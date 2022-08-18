@@ -5,7 +5,7 @@ import styles from './styles.module.scss';
 const Hero: React.FC = () => {
   return (
     <div className={styles.banner}>
-        <div className={styles.text}>Welcome to the Second HackIllinois Open Source Fellowship!</div>
+        <div className={styles.text}>Welcome to HackStart!</div>
     </div>
   );
 };
