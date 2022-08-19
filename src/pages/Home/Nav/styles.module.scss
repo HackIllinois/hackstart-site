@@ -1,31 +1,77 @@
 nav {
   background-color: white;
-  border: 4px solid #2C2C2C;
-  border-left: 0;
-  border-right: 0;
-  display: flex;
-  align-items: stretch;
+  position: relative;
 
-  .logo {
-    margin-right: auto;
-    padding-top: 25px;
-    padding-bottom: 25px;
-    border-right: 4px solid #2C2C2C;
+  .navBar {
+    border: 4px solid #2C2C2C;
+    border-left: 0;
+    border-right: 0;
+    display: flex;
+    align-items: stretch;
 
-    @media only screen and (max-width: 1100px) {
-      border-right: 0;
+    .logo {
+      margin-right: auto;
+      padding-top: 25px;
+      padding-bottom: 25px;
+      border-right: 4px solid #2C2C2C;
+
+      @media only screen and (max-width: 1100px) and (min-width: 700px) {
+        border-right: 0;
+      }
+    }
+
+    .link {
+      border-left: 4px solid #2C2C2C;
+      display: flex;
+      align-items: center;
+
+      @media only screen and (max-width: 700px) {
+        display: none;
+      }
+    }
+
+    .hamburger {
+      display: none;
+      width: 80px;
+      padding: 0 20px;
+      cursor: pointer;
+      border-left: 4px solid #2C2C2C;
+
+      @media only screen and (max-width: 700px) {
+        display: inline-block;
+      }
+    }
+
+    .logo, .link {
+      padding-right: 25px;
+      padding-left: 25px;
+    }
+  }
+
+  .dropDown {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+
+    .link {
+      padding: 20px;
+      width: 100vw;
+      z-index: 2;
+      border-bottom: 4px solid #2C2C2C;
+    }
+
+    &.shown {
+      display: none;
     }
   }
 
   .link {
-    border-left: 4px solid #2C2C2C;
-    display: flex;
-    align-items: center;
     color: inherit;
     text-decoration: none;
     font-size: 16px;
     font-weight: 700;
     transition: background-color .25s;
+    background-color: white;
 
     &.home:hover {
       background-color: #FF9863;
@@ -42,14 +88,5 @@ nav {
     &.mentors:hover {
       background-color: #3C73DA;
     }
-  }
-
-  .logo, .link {
-    padding-right: 25px;
-    padding-left: 25px;
-  }
-
-  @media only screen and (max-width: 700px) {
-    display: none;
   }
 }
