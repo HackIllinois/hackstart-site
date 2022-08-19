@@ -35,7 +35,7 @@ h2 {
   padding: 0 40px;
   border-radius: 80px;
   border: 2px solid currentColor;
-  border-bottom: 8px solid currentColor;
+  box-shadow: 0px 8px 0px currentColor;
   display: inline-block;
   background-color: white;
 }
@@ -47,7 +47,8 @@ h2 {
     padding: 0 32px;
     border-radius: 64px;
     border: 2px solid currentColor;
-    border-bottom: 8px solid currentColor;
+    /* border-bottom: 8px solid currentColor; */
+    box-shadow: 0px 8px 0px currentColor;
   }
 }
 
@@ -57,7 +58,7 @@ h2 {
     padding: 0 24px;
     border-radius: 48px;
     border: 2px solid currentColor;
-    border-bottom: 8px solid currentColor;
+    box-shadow: 0px 8px 0px currentColor;
   }
 }
 
