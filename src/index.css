@@ -98,35 +98,35 @@ p {
 }
 
 /* Utility */
-.mb-small {
-  margin-bottom: 20px;
+.mt-small {
+  margin-top: 20px;
 }
 
 @media only screen and (max-width: 1100px) {
-  .mb-small {
-    margin-bottom: 18px;
+  .mt-small {
+    margin-top: 18px;
   }
 }
 
 @media only screen and (max-width: 500px) {
-  .mb-small {
-    margin-bottom: 8px;
+  .mt-small {
+    margin-top: 8px;
   }
 }
 
-.mb-large {
-  margin-bottom: 64px;
+.mt-large {
+  margin-top: 64px;
 }
 
 @media only screen and (max-width: 1100px) {
-  .mb-large {
-    margin-bottom: 48px;
+  .mt-large {
+    margin-top: 48px;
   }
 }
 
 @media only screen and (max-width: 500px) {
-  .mb-large {
-    margin-bottom: 30px;
+t-large {
+    margin-top: 30px;
   }
 }
 

@@ -21,11 +21,11 @@ const About: React.FC = () => (
         <img className={clsx(styles.whiteEllipses, "shape")} src={WHITE_ELLIPSES} alt="" />
     </div>
     <div className={styles.text}>
-      <h2 className="mb-large">About</h2>
-      <h3 className="mb-small">Our Vision</h3>
-      <p className="mb-large">Introductory computer science curriculum is often geared towards a limited range of computer science topics. As a result, topics like machine learning, frontend development, cybersecurity, etc. are often pushed off until later electives, making it difficult for students like you to gain exposure to these subjects at the beginning of your Computer Science Journey. Thus, HackIllinois is excited to present HackStart, an opportunity for beginner programmers to knock through the barriers of what is labeled “beginner” and explore the depths of computer science in a friendly, guided project-based environment.</p>
-      <h3 className="mb-small">The Program</h3>
-      <p className="mb-small">HackStart is a one-day event in which students will work in project groups with mentors. As a participant, you’ll not only be able to learn about a new topic of your interest, but also gain valuable experience with a completed project. With our one-day timeline, you’ll be able to dive into your topic without being overwhelmed with a long term project, and gain insight into what a hackathon project may look like.</p>
+      <h2>About</h2>
+      <h3 className="mt-large">Our Vision</h3>
+      <p className="mt-small">Introductory computer science curriculum is often geared towards a limited range of computer science topics. As a result, topics like machine learning, frontend development, cybersecurity, etc. are often pushed off until later electives, making it difficult for students like you to gain exposure to these subjects at the beginning of your Computer Science Journey. Thus, HackIllinois is excited to present HackStart, an opportunity for beginner programmers to knock through the barriers of what is labeled “beginner” and explore the depths of computer science in a friendly, guided project-based environment.</p>
+      <h3 className="mt-large">The Program</h3>
+      <p className="mt-small">HackStart is a one-day event in which students will work in project groups with mentors. As a participant, you’ll not only be able to learn about a new topic of your interest, but also gain valuable experience with a completed project. With our one-day timeline, you’ll be able to dive into your topic without being overwhelmed with a long term project, and gain insight into what a hackathon project may look like.</p>
     </div>
   </section>
 );

@@ -50,13 +50,13 @@ const Hero: React.FC = () => {
       </div>
 
       <header className={styles.centerColumn}>
-        <h4 className="mb-small">HackIllinois presents</h4>
-        <h1 className="mb-small">
+        <h4>HackIllinois presents</h4>
+        <h1 className="mt-small">
           Hack
           <AnimatedElement />
         </h1>
-        <h3 className="mb-small">September 17, 2022</h3>
-        <a className={styles.applyButton} href="/">Apply Now</a>
+        <h3 className="mt-small">September 17, 2022</h3>
+        <a  className={clsx("mt-small", styles.applyButton)} href="/">Apply Now</a>
       </header>
 
       <div className={styles.rightColumn}>
