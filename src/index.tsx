@@ -7,7 +7,7 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
-ReactGA.initialize('G-TY8QF5NK77', {
+ReactGA.initialize('G-DC1PC7WBBK', {
   testMode: process.env.NODE_ENV !== 'production',
 });
 
