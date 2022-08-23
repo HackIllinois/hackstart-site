@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import styles from './styles.module.scss';
 import clsx from 'clsx';
 
-import LOGO from 'assets/home/shapes/hack_logo.svg';
+import LOGO from 'assets/home/nav/hack_logo.svg';
 import HAMBURGER from 'assets/home/nav/hamburger.svg';
 
 const links = (

@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './styles.module.scss';
 
-import GROUND from 'assets/home/shapes/ground.svg';
+import GROUND from 'assets/home/footer/ground.svg';
 
 import FACEBOOK from 'assets/home/footer/facebook.svg'
 import INSTAGRAM from 'assets/home/footer/instagram.svg'
