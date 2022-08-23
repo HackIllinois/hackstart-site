@@ -11,7 +11,6 @@
 
 html {
   box-sizing: border-box;
-  overflow-x: hidden;
   scroll-behavior: smooth;
 }
 
@@ -20,6 +19,7 @@ body {
   font-weight: 400;
   line-height: 1.6;
   color: #2C2C2C;
+  overflow-x: hidden;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -135,4 +135,5 @@ t-large {
 /* Basic Components */
 .shape {
   position: absolute;
+  display: none;
 }

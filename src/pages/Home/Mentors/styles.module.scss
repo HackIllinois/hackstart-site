@@ -75,79 +75,73 @@
   }
 
   @media only screen and (max-width: 500px) {
-    padding: 25px;
+    padding: 64px 25px;
   }
+}
 
-  .shape {
-    @media only screen and (max-width: 1100px) {
-      display: none;
-    }
-  }
-
-  .lameStar1 {
+@media only screen and (min-width: 1101px) {
+  .largeLameStar1 {
+    display: inline;
     top: 5%;
     left: 90px;
-    width: 30px;
-    height: 30px;
   }
 
-  .softStar {
+  .largeSoftStar1 {
+    display: inline;
     top: 20%;
-    left: 60px;
-    width: 55px;
-    height: 55px;
-    transform: rotateZ(-15deg);
+    left: 50px;
   }
 
-  .purpleEllipses {
+  .largePurpleEllipses1 {
+    display: inline;
     top: 40%;
     left: 70px;
-    width: 20px;
   }
 
-  .orangeX {
+  .largeOrangeX1 {
+    display: inline;
     top: 60%;
     left: 50px;
   }
 
-  .lameStar2 {
+  .largeLameStar2 {
+    display: inline;
     top: 75%;
     left: 35px;
-    width: 50px;
   }
 
-  .lameStar3 {
+  .largeLameStar3 {
+    display: inline;
     top: 4%;
     right: 150px;
-    width: 35px;
-    height: 35px;
   }
 
-  .blueEllipses {
+  .largeBlueEllipses1 {
+    display: inline;
     top: 17.5%;
     right: 70px;
-    width: 15px;
   }
 
-  .lameStar4 {
+  .largeLameStar4 {
+    display: inline;
     top: 40%;
     right: 45px;
-    width: 40px;
   }
 
-  .party {
+  .largeYellowFlower1 {
+    display: inline;
     top: 52.5%;
     right: 40px;
-    width: 70px;
   }
 
-  .lameStar5 {
+  .largeLameStar5 {
+    display: inline;
     top: 77.5%;
     right: 60px;
-    width: 40px;
   }
 
-  .redEllipses {
+  .largeRedEllipses1 {
+    display: inline;
     top: 90%;
     right: 40px;
   }

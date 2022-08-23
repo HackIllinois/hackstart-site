@@ -2,11 +2,27 @@ import React from 'react';
 import styles from './styles.module.scss';
 import clsx from 'clsx';
 
-import BLUE_MINI_CLOUD from 'assets/home/shapes/blue_half_cloud.svg';
-import WHITE_ELLIPSES from 'assets/home/shapes/white_ellipses.svg';
-import SOFT_STAR from 'assets/home/shapes/soft_star.svg';
-import ORANGE_HALF_CIRCLE from 'assets/home/shapes/orange_half_circle.svg';
-import PURPLE_OVAL from 'assets/home/shapes/purple_oval.svg';
+import LARGE_BLUE_MINI_CLOUD_1 from 'assets/home/faq/large/blue_mini_cloud_1.svg';
+import LARGE_WHITE_ELLIPSES_1 from 'assets/home/faq/large/white_ellipses_1.svg';
+import LARGE_SOFT_STAR_1 from 'assets/home/faq/large/soft_star_1.svg';
+import LARGE_SOFT_STAR_2 from 'assets/home/faq/large/soft_star_2.svg';
+import LARGE_ORANGE_SEMI_CIRCLE_1 from 'assets/home/faq/large/orange_semi_circle_1.svg';
+import LARGE_PURPLE_OVAL_1 from 'assets/home/faq/large/purple_oval_1.svg';
+
+import MEDIUM_BLUE_MINI_CLOUD_1 from 'assets/home/faq/medium/blue_mini_cloud_1.svg';
+import MEDIUM_WHITE_ELLIPSES_1 from 'assets/home/faq/medium/white_ellipses_1.svg';
+import MEDIUM_SOFT_STAR_1 from 'assets/home/faq/medium/soft_star_1.svg';
+import MEDIUM_SOFT_STAR_2 from 'assets/home/faq/medium/soft_star_2.svg';
+import MEDIUM_ORANGE_SEMI_CIRCLE_1 from 'assets/home/faq/medium/orange_semi_circle_1.svg';
+import MEDIUM_BLUE_ELLIPSES_1 from 'assets/home/faq/medium/blue_ellipses_1.svg';
+import MEDIUM_PURPLE_OVAL_1 from 'assets/home/faq/medium/purple_oval_1.svg';
+
+import SMALL_PURPLE_FLOWER_1 from 'assets/home/faq/small/purple_flower_1.svg';
+import SMALL_ORANGE_SEMI_CIRCLE_1 from 'assets/home/faq/small/orange_semi_circle_1.svg';
+import SMALL_SOFT_STAR_1 from 'assets/home/faq/small/soft_star_1.svg';
+import SMALL_SOFT_STAR_2 from 'assets/home/faq/small/soft_star_2.svg';
+import SMALL_BLUE_ELLIPSES_1 from 'assets/home/faq/small/blue_ellipses_1.svg';
+import SMALL_PURPLE_OVAL_1 from 'assets/home/faq/small/purple_oval_1.svg';
 
 const FAQ: React.FC = () => (
   <section className={styles.faq} id="faq">
@@ -24,12 +40,27 @@ const FAQ: React.FC = () => (
       <p className="mt-small">Mentors will be experienced individuals in their relevant topic. Our staff will work with mentors to ensure proper preparation and expertise.</p>
     </div>
     <div className={styles.abstract}>
-      <img className={clsx(styles.blueMiniCloud, "shape")} src={BLUE_MINI_CLOUD} alt="" />
-      <img className={clsx(styles.whiteEllipses, "shape")} src={WHITE_ELLIPSES} alt="" />
-      <img className={clsx(styles.orangeHalfCircle, "shape")} src={ORANGE_HALF_CIRCLE} alt="" />
-      <img className={clsx(styles.softStar1, "shape")} src={SOFT_STAR} alt="" />
-      <img className={clsx(styles.softStar2, "shape")} src={SOFT_STAR} alt="" />
-      <img className={clsx(styles.purpleOval, "shape")} src={PURPLE_OVAL} alt="" />
+      <img className={clsx(styles.largeBlueMiniCloud1, "shape")} src={LARGE_BLUE_MINI_CLOUD_1} alt="" />
+      <img className={clsx(styles.largeWhiteEllipses1, "shape")} src={LARGE_WHITE_ELLIPSES_1} alt="" />
+      <img className={clsx(styles.largeSoftStar1, "shape")} src={LARGE_SOFT_STAR_1} alt="" />
+      <img className={clsx(styles.largeSoftStar2, "shape")} src={LARGE_SOFT_STAR_2} alt="" />
+      <img className={clsx(styles.largeOrangeSemiCircle1, "shape")} src={LARGE_ORANGE_SEMI_CIRCLE_1} alt="" />
+      <img className={clsx(styles.largePurpleOval1, "shape")} src={LARGE_PURPLE_OVAL_1} alt="" />
+
+      <img className={clsx(styles.mediumBlueMiniCloud1, "shape")} src={MEDIUM_BLUE_MINI_CLOUD_1} alt="" />
+      <img className={clsx(styles.mediumWhiteEllipses1, "shape")} src={MEDIUM_WHITE_ELLIPSES_1} alt="" />
+      <img className={clsx(styles.mediumSoftStar1, "shape")} src={MEDIUM_SOFT_STAR_1} alt="" />
+      <img className={clsx(styles.mediumSoftStar2, "shape")} src={MEDIUM_SOFT_STAR_2} alt="" />
+      <img className={clsx(styles.mediumOrangeSemiCircle1, "shape")} src={MEDIUM_ORANGE_SEMI_CIRCLE_1} alt="" />
+      <img className={clsx(styles.mediumBlueEllipses1, "shape")} src={MEDIUM_BLUE_ELLIPSES_1} alt="" />
+      <img className={clsx(styles.mediumPurpleOval1, "shape")} src={MEDIUM_PURPLE_OVAL_1} alt="" />
+
+      <img className={clsx(styles.smallPurpleFlower1, "shape")} src={SMALL_PURPLE_FLOWER_1} alt="" />
+      <img className={clsx(styles.smallOrangeSemiCircle1, "shape")} src={SMALL_ORANGE_SEMI_CIRCLE_1} alt="" />
+      <img className={clsx(styles.smallSoftStar1, "shape")} src={SMALL_SOFT_STAR_1} alt="" />
+      <img className={clsx(styles.smallSoftStar2, "shape")} src={SMALL_SOFT_STAR_2} alt="" />
+      <img className={clsx(styles.smallBlueEllipses1, "shape")} src={SMALL_BLUE_ELLIPSES_1} alt="" />
+      <img className={clsx(styles.smallPurpleOval1, "shape")} src={SMALL_PURPLE_OVAL_1} alt="" />
     </div>
   </section>
 );

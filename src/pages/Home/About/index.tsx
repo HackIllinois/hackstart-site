@@ -2,23 +2,46 @@ import React from 'react';
 import styles from './styles.module.scss';
 import clsx from 'clsx';
 
-import BLUE_CLOUD from 'assets/home/shapes/blue_cloud.svg';
-import YELLOW_FLOWER from 'assets/home/shapes/yellow_flower.svg';
-import LAME_STAR from 'assets/home/shapes/lame_star.svg';
-import ORANGE_FLOWER from 'assets/home/shapes/orange_flower.svg';
-import ORANGE_ELLIPSES from 'assets/home/shapes/orange_ellipses.svg';
-import WHITE_ELLIPSES from 'assets/home/shapes/white_ellipses.svg';
+import LARGE_BLUE_CLOUD_1 from 'assets/home/about/large/blue_cloud_1.svg';
+import LARGE_YELLOW_FLOWER_1 from 'assets/home/about/large/yellow_flower_1.svg';
+import LARGE_LAME_STAR_1 from 'assets/home/about/large/lame_star_1.svg';
+import LARGE_LAME_STAR_2 from 'assets/home/about/large/lame_star_2.svg';
+import LARGE_ORANGE_FLOWER_1 from 'assets/home/about/large/orange_flower_1.svg';
+
+import MEDIUM_BLUE_CLOUD_1 from 'assets/home/about/medium/blue_cloud_1.svg';
+import MEDIUM_YELLOW_FLOWER_1 from 'assets/home/about/medium/yellow_flower_1.svg';
+import MEDIUM_LAME_STAR_1 from 'assets/home/about/medium/lame_star_1.svg';
+import MEDIUM_LAME_STAR_2 from 'assets/home/about/medium/lame_star_2.svg';
+import MEDIUM_ORANGE_FLOWER_1 from 'assets/home/about/medium/orange_flower_1.svg';
+
+import SMALL_ORANGE_ELLIPSES_1 from 'assets/home/about/small/orange_ellipses_1.svg';
+import SMALL_LAME_STAR_1 from 'assets/home/about/small/lame_star_1.svg';
+import SMALL_YELLOW_FLOWER_1 from 'assets/home/about/small/yellow_flower_1.svg';
+import SMALL_WHITE_ELLIPSES_1 from 'assets/home/about/small/white_ellipses_1.svg';
+import SMALL_LAME_STAR_2 from 'assets/home/about/small/lame_star_2.svg';
+import SMALL_BLUE_CLOUD_1 from 'assets/home/about/small/blue_cloud_1.svg';
 
 const About: React.FC = () => (
   <section className={styles.about} id="about">
     <div className={styles.abstract}>
-        <img className={clsx(styles.blueCloud, "shape")} src={BLUE_CLOUD} alt="" />
-        <img className={clsx(styles.yellowFlower, "shape")} src={YELLOW_FLOWER} alt="" />
-        <img className={clsx(styles.lameStar1, "shape")} src={LAME_STAR} alt="" />
-        <img className={clsx(styles.lameStar2, "shape")} src={LAME_STAR} alt="" />
-        <img className={clsx(styles.orangeFlower, "shape")} src={ORANGE_FLOWER} alt="" />
-        <img className={clsx(styles.orangeEllipses, "shape")} src={ORANGE_ELLIPSES} alt="" />
-        <img className={clsx(styles.whiteEllipses, "shape")} src={WHITE_ELLIPSES} alt="" />
+        <img className={clsx(styles.largeBlueCloud1, "shape")} src={LARGE_BLUE_CLOUD_1} alt="" />
+        <img className={clsx(styles.largeYellowFlower1, "shape")} src={LARGE_YELLOW_FLOWER_1} alt="" />
+        <img className={clsx(styles.largeLameStar1, "shape")} src={LARGE_LAME_STAR_1} alt="" />
+        <img className={clsx(styles.largeLameStar2, "shape")} src={LARGE_LAME_STAR_2} alt="" />
+        <img className={clsx(styles.largeOrangeFlower, "shape")} src={LARGE_ORANGE_FLOWER_1} alt="" />
+
+        <img className={clsx(styles.mediumBlueCloud1, "shape")} src={MEDIUM_BLUE_CLOUD_1} alt="" />
+        <img className={clsx(styles.mediumYellowFlower1, "shape")} src={MEDIUM_YELLOW_FLOWER_1} alt="" />
+        <img className={clsx(styles.mediumLameStar1, "shape")} src={MEDIUM_LAME_STAR_1} alt="" />
+        <img className={clsx(styles.mediumLameStar2, "shape")} src={MEDIUM_LAME_STAR_2} alt="" />
+        <img className={clsx(styles.mediumOrangeFlower, "shape")} src={MEDIUM_ORANGE_FLOWER_1} alt="" />
+
+        <img className={clsx(styles.smallOrangeEllipses1, "shape")} src={SMALL_ORANGE_ELLIPSES_1} alt="" />
+        <img className={clsx(styles.smallLameStar1, "shape")} src={SMALL_LAME_STAR_1} alt="" />
+        <img className={clsx(styles.smallYellowFlower1, "shape")} src={SMALL_YELLOW_FLOWER_1} alt="" />
+        <img className={clsx(styles.smallWhiteEllipses1, "shape")} src={SMALL_WHITE_ELLIPSES_1} alt="" />
+        <img className={clsx(styles.smallLameStar2, "shape")} src={SMALL_LAME_STAR_2} alt="" />
+        <img className={clsx(styles.smallBlueCloud1, "shape")} src={SMALL_BLUE_CLOUD_1} alt="" />
     </div>
     <div className={styles.text}>
       <h2>About</h2>

@@ -31,7 +31,7 @@
 
         @media only screen and (max-width: 500px) {
             flex: 1 0 0;
-            padding: 30px;
+            padding: 64px 0 64px 30px;
             padding-right: 0;
         }
     }
@@ -156,5 +156,107 @@
             right: 20%;
             width: 12.5%;
         }
+    }
+}
+
+@media only screen and (min-width: 1101px) {
+    .largeBlueCloud1 {
+        display: inline;
+        left: 5%;
+        top: 10%;
+    }
+
+    .largeYellowFlower1 {
+        display: inline;
+        left: 0%;
+        top: 45%;
+    }
+
+    .largeLameStar1 {
+        display: inline;
+        top: 35%;
+        right: 10%;
+    }
+
+    .largeLameStar2 {
+        display: inline;
+        top: 50%;
+        right: 30%;
+    }
+
+    .largeOrangeFlower {
+        display: inline;
+        top: 75%;
+        right: 15%;
+    }
+}
+
+@media only screen and (max-width: 1100px) and (min-width: 501px) {
+    .mediumBlueCloud1 {
+        display: inline;
+        left: 5%;
+        top: 10%;
+    }
+
+    .mediumYellowFlower1 {
+        display: inline;
+        top: 40%;
+        left: 0%;
+    }
+
+    .mediumLameStar1 {
+        display: inline;
+        top: 65%;
+        right: 10%;
+    }
+
+    .mediumLameStar2 {
+        display: inline;
+        top: 25%;
+        right: 10%;
+    }
+
+    .mediumOrangeFlower {
+        display: inline;
+        top: 80%;
+        left: 40%;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .smallOrangeEllipses1 {
+        display: inline;
+        top: 12.5%;
+        right: 10%;
+    }
+
+    .smallLameStar1 {
+        display: inline;
+        top: 25%;
+        right: 5%;
+    }
+
+    .smallYellowFlower1 {
+        display: inline;
+        top: 40%;
+        right: 0%;
+    }
+
+    .smallWhiteEllipses1 {
+        display: inline;
+        top: 57.5%;
+        right: 20%;
+    }
+
+    .smallLameStar2 {
+        display: inline;
+        top: 72.5%;
+        right: 10%;
+    }
+
+    .smallBlueCloud1 {
+        display: inline;
+        right: 5%;
+        bottom: 5%;
     }
 }

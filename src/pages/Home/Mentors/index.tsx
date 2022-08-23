@@ -1,16 +1,20 @@
 import React from 'react';
 
-import LAME_STAR from 'assets/home/shapes/lame_star.svg';
-import SOFT_STAR from 'assets/home/shapes/soft_star.svg';
-import PARTY from 'assets/home/shapes/party.svg';
-import PURPLE_ELLIPSES from 'assets/home/shapes/purple_ellipses.svg';
-import RED_ELLIPSES from 'assets/home/shapes/red_ellipses.svg';
-import BLUE_ELLIPSES from 'assets/home/shapes/blue_ellipses.svg';
-import ORANGE_X from 'assets/home/shapes/orange_x.svg';
-
 import clsx from 'clsx';
 import styles from './styles.module.scss';
 import mentors from './mentors.json';
+
+import LARGE_LAME_STAR_1 from 'assets/home/mentors/large/lame_star_1.svg';
+import LARGE_SOFT_STAR_1 from 'assets/home/mentors/large/soft_star_1.svg';
+import LARGE_PURPLE_ELLIPSES_1 from 'assets/home/mentors/large/purple_ellipses_1.svg';
+import LARGE_ORANGE_X_1 from 'assets/home/mentors/large/orange_x_1.svg';
+import LARGE_LAME_STAR_2 from 'assets/home/mentors/large/lame_star_2.svg';
+import LARGE_LAME_STAR_3 from 'assets/home/mentors/large/lame_star_3.svg';
+import LARGE_BLUE_ELLIPSES_1 from 'assets/home/mentors/large/blue_ellipses_1.svg';
+import LARGE_LAME_STAR_4 from 'assets/home/mentors/large/lame_star_4.svg';
+import LARGE_YELLOW_FLOWER_1 from 'assets/home/mentors/large/yellow_flower_1.svg';
+import LARGE_LAME_STAR_5 from 'assets/home/mentors/large/lame_star_5.svg';
+import LARGE_RED_ELLIPSES_1 from 'assets/home/mentors/large/red_ellipses_1.svg';
 
 const Mentors: React.FC = () => (
   <section className={styles.mentors} id="mentors">
@@ -26,18 +30,17 @@ const Mentors: React.FC = () => (
       </div>
     ))}
 
-    <img className={clsx(styles.lameStar1, styles.shape, "shape")} src={LAME_STAR} alt="" />
-    <img className={clsx(styles.softStar, styles.shape, "shape")} src={SOFT_STAR} alt="" />
-    <img className={clsx(styles.purpleEllipses, styles.shape, "shape")} src={PURPLE_ELLIPSES} alt="" />
-    <img className={clsx(styles.orangeX, styles.shape, "shape")} src={ORANGE_X} alt="" />
-    <img className={clsx(styles.lameStar2, styles.shape, "shape")} src={LAME_STAR} alt="" />
-
-    <img className={clsx(styles.lameStar3, styles.shape, "shape")} src={LAME_STAR} alt="" />
-    <img className={clsx(styles.blueEllipses, styles.shape, "shape")} src={BLUE_ELLIPSES} alt="" />
-    <img className={clsx(styles.lameStar4, styles.shape, "shape")} src={LAME_STAR} alt="" />
-    <img className={clsx(styles.party, styles.shape, "shape")} src={PARTY} alt="" />
-    <img className={clsx(styles.lameStar5, styles.shape, "shape")} src={LAME_STAR} alt="" />
-    <img className={clsx(styles.redEllipses, styles.shape, "shape")} src={RED_ELLIPSES} alt="" />
+    <img className={clsx(styles.largeLameStar1, "shape")} src={LARGE_LAME_STAR_1} alt="" />
+    <img className={clsx(styles.largeSoftStar1, "shape")} src={LARGE_SOFT_STAR_1} alt="" />
+    <img className={clsx(styles.largePurpleEllipses1, "shape")} src={LARGE_PURPLE_ELLIPSES_1} alt="" />
+    <img className={clsx(styles.largeOrangeX1, "shape")} src={LARGE_ORANGE_X_1} alt="" />
+    <img className={clsx(styles.largeLameStar2, "shape")} src={LARGE_LAME_STAR_2} alt="" />
+    <img className={clsx(styles.largeLameStar3, "shape")} src={LARGE_LAME_STAR_3} alt="" />
+    <img className={clsx(styles.largeBlueEllipses1, "shape")} src={LARGE_BLUE_ELLIPSES_1} alt="" />
+    <img className={clsx(styles.largeLameStar4, "shape")} src={LARGE_LAME_STAR_4} alt="" />
+    <img className={clsx(styles.largeYellowFlower1, "shape")} src={LARGE_YELLOW_FLOWER_1} alt="" />
+    <img className={clsx(styles.largeLameStar5, "shape")} src={LARGE_LAME_STAR_5} alt="" />
+    <img className={clsx(styles.largeRedEllipses1, "shape")} src={LARGE_RED_ELLIPSES_1} alt="" />
   </section>
 );
 
