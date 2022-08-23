@@ -8,7 +8,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 ReactGA.initialize('G-DC1PC7WBBK', {
-  testMode: process.env.NODE_ENV !== 'production',
+  testMode: process.env.NODE_ENV == undefined || process.env.NODE_ENV !== 'production',
 });
 
 ReactDOM.render(
