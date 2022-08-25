@@ -16,9 +16,9 @@ const links = (
     <a href="#faq" className={clsx(styles.link, styles.faq)}>
       <span>FAQ</span>
     </a>
-    <a href="#mentors" className={clsx(styles.link, styles.mentors)}>
+    {/* <a href="#mentors" className={clsx(styles.link, styles.mentors)}>
       <span>Mentors</span>
-    </a>
+    </a> */}
   </>
 );
 

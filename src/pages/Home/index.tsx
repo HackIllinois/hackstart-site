@@ -4,7 +4,7 @@ import Nav from './Nav';
 import Hero from './Hero';
 import About from './About';
 import FAQ from './FAQ';
-import Mentors from './Mentors';
+// import Mentors from './Mentors';
 import Footer from './Footer';
 
 import Banner from './Banner';
