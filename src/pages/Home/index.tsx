@@ -19,8 +19,8 @@ const Home: React.FC = () => (
     <About />
     <Banner />
     <FAQ />
-    <Banner />
-    <Mentors />
+    {/* <Banner /> */}
+    {/* <Mentors /> */}
     <Footer />
   </main>
 );
