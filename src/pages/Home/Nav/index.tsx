@@ -38,7 +38,7 @@ const Nav: React.FC = () => {
         />
       </div>
       <div
-        className={clsx(styles.dropDown, dropDownShow || styles.shown)}
+        className={clsx(styles.dropDown, dropDownShow && styles.shown)}
         onClick={() => setDropDownShown(x => !x)}
       >
         {links}
