@@ -89,7 +89,7 @@ const Hero: React.FC = () => {
           <AnimatedElement />
         </h1>
         <h3 className="mt-small">September 17, 2022</h3>
-        <a  className={clsx("mt-small", styles.applyButton)} href="/">Apply Now</a>
+        <a  className={clsx("mt-small", styles.applyButton)} href="https://go.hackillinois.org/hackstart-apps">Apply Now</a>
       </header>
 
       <div className={styles.rightColumn}>
